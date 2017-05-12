@@ -50,7 +50,45 @@ pt.slideIdToFunctions = {
   },
   'point-stack': {
     'init': function() {
-      pr.pointStack.init();
+      pt.pointStack.init();
+    }
+  },
+  'langInfluence': {
+    'init': function() {
+      pt.langInfluence.init();
+    }
+  },
+  'force': {
+    'init': function() {
+      pt.g6Force.init();
+    }
+  },
+  'systemNet': {
+    'init': function() {
+      pt.g6SystemNet.init();
+    }
+  },
+  'flow': {
+    'init': function() {
+      pt.g6RiverFlow.init();
+      pt.g6Flow.init();
+    }
+  },
+  'gm-charts': {
+    'init': function() {
+      pt.gmStackedArea.init();
+      pt.gmArea.init();
+      pt.lineDash.init();
+      pt.lineSmooth.init();
+      pt.gmRadar.init();
+      pt.gmKChart.init();
+      pt.gmStackedBar.init();
+      pt.gmBar.init();
+      pt.gmDoubleY.init();
+      pt.gmDashboard.init();
+      pt.gmNested.init();
+      pt.gmDonut.init();
+      pt.gmPie.init();
     }
   }
 };

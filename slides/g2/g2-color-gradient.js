@@ -17,7 +17,6 @@ pt.colorGradient.init = function() {
     drawShape: function(cfg, container) {
         cfg.points = this.parsePoints(cfg.points);
         var attrs = getFillAttrs(cfg);
-      console.log(cfg);
         var shape = container.addShape('circle', {
           attrs: Util.mix(attrs, {
             x: cfg.x,

@@ -78,7 +78,7 @@ pt.chinaMap.init = function() {
         var chart = new G2.Chart({
           id: 'china',
           width: 1440,
-          height: 826,
+          height: 700,
           plotCfg: {
             margin: [0, 135]
           }

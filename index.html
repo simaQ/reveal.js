@@ -36,18 +36,33 @@
 				<section data-external="slides/slide_01/introduction.html"></section>
 				<section data-external="slides/slide_03/vis-basic.html"></section>
 				<section data-external="slides/slide_03/charts-intro.html"></section>
-				<section data-external="slides/slide_04/g2-intro.html"></section>
-				<section data-external="slides/slide_04/g2-start-code-0.html"></section>
-				<section data-external="slides/slide_04/g2-start.html"></section>
-				<section data-external="slides/slide_04/g2-start-code-1.html"></section>
-				<section data-external="slides/slide_04/g2-customize.html"></section>
-				<section data-external="slides/slide_04/g2-polar-coordinate.html"></section>
-				<section data-external="slides/slide_04/g2-color-gradient.html"></section>
-				<section data-external="slides/slide_04/g2-china-map.html"></section>
-				<section data-external="slides/slide_04/g2-chart-linkage.html"></section>
-				<section data-external="slides/slide_04/g2-arcDiagram.html"></section>
-				<section data-external="slides/slide_04/g2-sankey.html"></section>
-				<section data-external="slides/slide_04/g2-point-stack.html"></section>
+
+				<!-- G2 -->
+				<section data-external="slides/g2/g2-intro.html"></section>
+				<section data-external="slides/g2/g2-start-code-0.html"></section>
+				<section data-external="slides/g2/g2-start.html"></section>
+				<section data-external="slides/g2/g2-start-code-1.html"></section>
+				<section data-external="slides/g2/g2-customize.html"></section>
+				<section data-external="slides/g2/g2-polar-coordinate.html"></section>
+				<section data-external="slides/g2/g2-color-gradient.html"></section>
+				<section data-external="slides/g2/g2-china-map.html"></section>
+				<section data-external="slides/g2/g2-chart-linkage.html"></section>
+				<section data-external="slides/g2/g2-arcDiagram.html"></section>
+				<section data-external="slides/g2/g2-sankey.html"></section>
+				<!-- <section data-external="slides/g2/g2-point-stack.html"></section> -->
+
+				<!-- G6 -->
+<!-- 				<section data-external="slides/g6/g6-intro.html"></section>
+-->
+				<section data-external="slides/g6/g6-demo1.html"></section>
+				<section data-external="slides/g6/g6-demo2.html"></section>
+				<section data-external="slides/g6/g6-demo3.html"></section>
+				<section data-external="slides/g6/g6-demo4.html"></section>
+
+				<!-- G2-Mobile -->
+				<section data-external="slides/gm/gm-intro.html"></section>
+				<!-- <section data-external="slides/gm/gm-demo1.html"></section> -->
+
 				<!-- <section>Slide 2</section> -->
 			</div>
 		</div>
@@ -60,6 +75,10 @@
 
 		<!-- G2 -->
 		<script src="js/g2.js"></script>
+		<!-- G6 -->
+		<script src="js/g6.js"></script>
+		<!-- G2-mobile -->
+		<script src="js/g2-mobile-all-2-1-14.js"></script>
 
 		<!-- REVEAL TO G2 -->
 		 <script src="js/reveal-to-g2-config.js"></script>
@@ -67,16 +86,22 @@
 
 		<!-- each slide's script -->
 		<script src="js/antv.js" defer></script>
-		<script src="slides/slide_04/g2-start.js"></script>
-		<script src="slides/slide_04/g2-start-code-1.js"></script>
-		<script src="slides/slide_04/g2-customize.js"></script>
-		<script src="slides/slide_04/g2-polar-coordinate.js"></script>
-		<script src="slides/slide_04/g2-color-gradient.js"></script>
-		<script src="slides/slide_04/g2-china-map.js"></script>
-		<script src="slides/slide_04/g2-chart-linkage.js"></script>
-		<script src="slides/slide_04/g2-arcDiagram.js"></script>
-		<script src="slides/slide_04/g2-sankey.js"></script>
-		<script src="slides/slide_04/g2-point-stack.js"></script>
+		<script src="slides/g2/g2-start.js"></script>
+		<script src="slides/g2/g2-start-code-1.js"></script>
+		<script src="slides/g2/g2-customize.js"></script>
+		<script src="slides/g2/g2-polar-coordinate.js"></script>
+		<script src="slides/g2/g2-color-gradient.js"></script>
+		<script src="slides/g2/g2-china-map.js"></script>
+		<script src="slides/g2/g2-chart-linkage.js"></script>
+		<script src="slides/g2/g2-arcDiagram.js"></script>
+		<script src="slides/g2/g2-sankey.js"></script>
+		<script src="slides/g2/g2-point-stack.js"></script>
+		<script src="slides/g6/g6-intro.js"></script>
+		<script src="slides/g6/g6-demo1.js"></script>
+		<script src="slides/g6/g6-demo2.js"></script>
+		<script src="slides/g6/g6-demo3.js"></script>
+		<script src="slides/g6/g6-demo4.js"></script>
+		<script src="slides/gm/gm-intro.js"></script>
 
 		<script>
 			// More info about config & dependencies:
@@ -100,7 +125,7 @@
     			minScale: 0.2,
     			maxScale: 4,
 
-				  transition: 'none', // none/fade/slide/convex/concave/zoom
+				  transition: 'fade', // none/fade/slide/convex/concave/zoom
 
 				// Optional reveal.js plugins
 				dependencies: [
